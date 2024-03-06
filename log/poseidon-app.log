@@ -1,0 +1,184 @@
+2024-02-29 19:58:59.820  === [restartedMain] === INFO  === com.nnk.springboot.PoseidonApplication ===  Starting PoseidonApplication using Java 21.0.2 on LAPTOP-CO7D3IQ1 with PID 4956 (C:\Users\wsegh\OneDrive\Bureau\poseiden\target\classes started by wsegh in C:\Users\wsegh\OneDrive\Bureau\poseiden)
+2024-02-29 19:58:59.836  === [restartedMain] === DEBUG === com.nnk.springboot.PoseidonApplication ===  Running with Spring Boot v2.6.3, Spring v5.3.15
+2024-02-29 19:58:59.836  === [restartedMain] === INFO  === com.nnk.springboot.PoseidonApplication ===  No active profile set, falling back to default profiles: default
+2024-02-29 19:58:59.925  === [restartedMain] === INFO  === o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor ===  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-29 19:59:01.149  === [restartedMain] === INFO  === o.s.d.r.config.RepositoryConfigurationDelegate ===  Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-29 19:59:01.349  === [restartedMain] === INFO  === o.s.d.r.config.RepositoryConfigurationDelegate ===  Finished Spring Data repository scanning in 170 ms. Found 6 JPA repository interfaces.
+2024-02-29 19:59:02.040  === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ===  Tomcat initialized with port(s): 8080 (http)
+2024-02-29 19:59:02.049  === [restartedMain] === INFO  === org.apache.catalina.core.StandardService ===  Starting service [Tomcat]
+2024-02-29 19:59:02.049  === [restartedMain] === INFO  === org.apache.catalina.core.StandardEngine ===  Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-02-29 19:59:02.122  === [restartedMain] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ===  Initializing Spring embedded WebApplicationContext
+2024-02-29 19:59:02.122  === [restartedMain] === INFO  === o.s.b.w.s.c.ServletWebServerApplicationContext ===  Root WebApplicationContext: initialization completed in 2195 ms
+2024-02-29 19:59:02.147  === [restartedMain] === INFO  === com.zaxxer.hikari.HikariDataSource ===  HikariPool-1 - Starting...
+2024-02-29 19:59:02.612  === [restartedMain] === INFO  === com.zaxxer.hikari.HikariDataSource ===  HikariPool-1 - Start completed.
+2024-02-29 19:59:02.620  === [restartedMain] === INFO  === o.s.b.autoconfigure.h2.H2ConsoleAutoConfiguration ===  H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/pojo'
+2024-02-29 19:59:02.642  === [restartedMain] === DEBUG === o.s.b.web.servlet.ServletContextInitializerBeans ===  Mapping filters: springSecurityFilterChain urls=[/*] order=-100, filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2024-02-29 19:59:02.642  === [restartedMain] === DEBUG === o.s.b.web.servlet.ServletContextInitializerBeans ===  Mapping servlets: dispatcherServlet urls=[/], webServlet urls=[/h2-console/*]
+2024-02-29 19:59:03.919  === [restartedMain] === INFO  === o.s.orm.jpa.LocalContainerEntityManagerFactoryBean ===  Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 19:59:04.002  === [restartedMain] === WARN  === o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration ===  spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-29 19:59:04.602  === [restartedMain] === INFO  === o.s.security.web.DefaultSecurityFilterChain ===  Will secure Ant [pattern='/css/**'] with []
+2024-02-29 19:59:04.626  === [restartedMain] === INFO  === o.s.security.web.DefaultSecurityFilterChain ===  Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b763dae, org.springframework.security.web.context.SecurityContextPersistenceFilter@4bffab2b, org.springframework.security.web.header.HeaderWriterFilter@4cf8fe48, org.springframework.security.web.authentication.logout.LogoutFilter@23019cbf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e7e8229, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@684703e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75c36a67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7cc6a058, org.springframework.security.web.session.SessionManagementFilter@379d04b1, org.springframework.security.web.access.ExceptionTranslationFilter@719c30f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f354601]
+2024-02-29 19:59:04.789  === [restartedMain] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerAdapter ===  ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-02-29 19:59:04.915  === [restartedMain] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  42 mappings in 'requestMappingHandlerMapping'
+2024-02-29 19:59:04.959  === [restartedMain] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-02-29 19:59:04.969  === [restartedMain] === DEBUG === o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver ===  ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-02-29 19:59:05.174  === [restartedMain] === INFO  === o.s.b.d.autoconfigure.OptionalLiveReloadServer ===  LiveReload server is running on port 35729
+2024-02-29 19:59:05.226  === [restartedMain] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer ===  Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-29 19:59:05.236  === [restartedMain] === INFO  === com.nnk.springboot.PoseidonApplication ===  Started PoseidonApplication in 5.876 seconds (JVM running for 9.884)
+2024-02-29 19:59:11.609  === [http-nio-8080-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] ===  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-29 19:59:11.609  === [http-nio-8080-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ===  Initializing Servlet 'dispatcherServlet'
+2024-02-29 19:59:11.610  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Detected StandardServletMultipartResolver
+2024-02-29 19:59:11.610  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Detected AcceptHeaderLocaleResolver
+2024-02-29 19:59:11.610  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Detected FixedThemeResolver
+2024-02-29 19:59:11.612  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@46be56f5
+2024-02-29 19:59:11.612  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Detected org.springframework.web.servlet.support.SessionFlashMapManager@b39b8a3
+2024-02-29 19:59:11.612  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-02-29 19:59:11.612  === [http-nio-8080-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet ===  Completed initialization in 2 ms
+2024-02-29 19:59:11.779  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/login", parameters={}
+2024-02-29 19:59:11.784  === [http-nio-8080-exec-2] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.LoginController#login(Model)
+2024-02-29 19:59:11.809  === [http-nio-8080-exec-2] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:12.156  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:12.275  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:12.281  === [http-nio-8080-exec-3] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:12.304  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:12.994  === [http-nio-8080-exec-4] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css.map", parameters={}
+2024-02-29 19:59:12.995  === [http-nio-8080-exec-4] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:12.999  === [http-nio-8080-exec-4] === DEBUG === o.s.w.servlet.resource.ResourceHttpRequestHandler ===  Resource not found
+2024-02-29 19:59:13.000  === [http-nio-8080-exec-4] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 404 NOT_FOUND
+2024-02-29 19:59:13.009  === [http-nio-8080-exec-5] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/login", parameters={}
+2024-02-29 19:59:13.009  === [http-nio-8080-exec-5] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.LoginController#login(Model)
+2024-02-29 19:59:13.012  === [http-nio-8080-exec-5] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected '*/*' given [*/*]
+2024-02-29 19:59:13.019  === [http-nio-8080-exec-5] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:39.507  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/bidList/list", parameters={}
+2024-02-29 19:59:39.508  === [http-nio-8080-exec-9] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.BidListController#home(Model)
+2024-02-29 19:59:39.530  === [http-nio-8080-exec-9] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:39.543  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:39.572  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:39.572  === [http-nio-8080-exec-10] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:39.588  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:42.090  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 19:59:42.090  === [http-nio-8080-exec-1] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 19:59:42.102  === [http-nio-8080-exec-1] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:42.110  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:42.141  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:42.142  === [http-nio-8080-exec-2] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:42.150  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:43.748  === [http-nio-8080-exec-5] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/update/35", parameters={}
+2024-02-29 19:59:43.749  === [http-nio-8080-exec-5] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#showUpdateForm(Integer, Model)
+2024-02-29 19:59:43.773  === [http-nio-8080-exec-5] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  Query to find Rating by id 35
+2024-02-29 19:59:43.776  === [http-nio-8080-exec-5] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:43.797  === [http-nio-8080-exec-5] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:43.815  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:43.816  === [http-nio-8080-exec-6] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:43.825  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:45.985  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 19:59:45.985  === [http-nio-8080-exec-7] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 19:59:45.995  === [http-nio-8080-exec-7] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:45.999  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:46.016  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:46.016  === [http-nio-8080-exec-8] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:46.020  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:47.722  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/delete/35", parameters={}
+2024-02-29 19:59:47.723  === [http-nio-8080-exec-9] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#deleteRating(Integer, Model)
+2024-02-29 19:59:47.828  === [http-nio-8080-exec-9] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  Rating with id 35 is deleted!
+2024-02-29 19:59:47.834  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.view.RedirectView ===  View name 'redirect:', model {}
+2024-02-29 19:59:47.834  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 302 FOUND
+2024-02-29 19:59:47.840  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 19:59:47.840  === [http-nio-8080-exec-10] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 19:59:47.844  === [http-nio-8080-exec-10] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:47.847  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:47.861  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:47.862  === [http-nio-8080-exec-1] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:47.867  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:50.737  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/add", parameters={}
+2024-02-29 19:59:50.738  === [http-nio-8080-exec-2] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#addRatingForm(Rating)
+2024-02-29 19:59:50.742  === [http-nio-8080-exec-2] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:50.751  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:50.770  === [http-nio-8080-exec-4] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:50.772  === [http-nio-8080-exec-4] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:50.779  === [http-nio-8080-exec-4] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:58.713  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  POST "/rating/validate", parameters={masked}
+2024-02-29 19:59:58.713  === [http-nio-8080-exec-6] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#validate(Rating, BindingResult, Model)
+2024-02-29 19:59:58.809  === [http-nio-8080-exec-6] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  New Rating Rating(id=48, moodysRating=sd, sendPRating=dsgs, fitchRating=sdgsd, orderNumber=12) is created!
+2024-02-29 19:59:58.814  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.view.RedirectView ===  View name 'redirect:', model {}
+2024-02-29 19:59:58.814  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 302 FOUND
+2024-02-29 19:59:58.820  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 19:59:58.821  === [http-nio-8080-exec-7] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 19:59:58.825  === [http-nio-8080-exec-7] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 19:59:58.831  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 19:59:58.852  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 19:59:58.854  === [http-nio-8080-exec-8] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 19:59:58.862  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:34.217  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 20:04:34.226  === [http-nio-8080-exec-1] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 20:04:34.307  === [http-nio-8080-exec-1] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:04:34.321  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:34.403  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:04:34.404  === [http-nio-8080-exec-2] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:04:34.419  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:37.185  === [http-nio-8080-exec-4] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/add", parameters={}
+2024-02-29 20:04:37.186  === [http-nio-8080-exec-4] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#addRatingForm(Rating)
+2024-02-29 20:04:37.206  === [http-nio-8080-exec-4] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:04:37.473  === [http-nio-8080-exec-4] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:37.597  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:04:37.609  === [http-nio-8080-exec-3] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:04:37.634  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:45.196  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  POST "/rating/validate", parameters={masked}
+2024-02-29 20:04:45.198  === [http-nio-8080-exec-7] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#validate(Rating, BindingResult, Model)
+2024-02-29 20:04:45.291  === [http-nio-8080-exec-7] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  New Rating Rating(id=49, moodysRating=vdsg, sendPRating=fsgsdg, fitchRating=fgsfg, orderNumber=15) is created!
+2024-02-29 20:04:45.296  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.view.RedirectView ===  View name 'redirect:', model {}
+2024-02-29 20:04:45.297  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 302 FOUND
+2024-02-29 20:04:45.308  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 20:04:45.308  === [http-nio-8080-exec-8] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 20:04:45.314  === [http-nio-8080-exec-8] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:04:45.320  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:45.353  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:04:45.355  === [http-nio-8080-exec-9] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:04:45.369  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:49.832  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/update/49", parameters={}
+2024-02-29 20:04:49.833  === [http-nio-8080-exec-10] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#showUpdateForm(Integer, Model)
+2024-02-29 20:04:49.841  === [http-nio-8080-exec-10] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  Query to find Rating by id 49
+2024-02-29 20:04:49.842  === [http-nio-8080-exec-10] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:04:49.849  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:49.878  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:04:49.878  === [http-nio-8080-exec-1] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:04:49.883  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:54.963  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  POST "/rating/update/49", parameters={masked}
+2024-02-29 20:04:54.965  === [http-nio-8080-exec-3] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#updateRating(Integer, Rating, BindingResult, Model)
+2024-02-29 20:04:55.005  === [http-nio-8080-exec-3] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  Rating with id 49 is updated as Rating(id=49, moodysRating=vdsg, sendPRating=fsgsdg, fitchRating=fgsfg, orderNumber=0)
+2024-02-29 20:04:55.009  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.view.RedirectView ===  View name 'redirect:', model {}
+2024-02-29 20:04:55.010  === [http-nio-8080-exec-3] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 302 FOUND
+2024-02-29 20:04:55.015  === [http-nio-8080-exec-5] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 20:04:55.015  === [http-nio-8080-exec-5] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 20:04:55.020  === [http-nio-8080-exec-5] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:04:55.025  === [http-nio-8080-exec-5] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:04:55.053  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:04:55.056  === [http-nio-8080-exec-6] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:04:55.063  === [http-nio-8080-exec-6] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:05:00.199  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/delete/49", parameters={}
+2024-02-29 20:05:00.200  === [http-nio-8080-exec-7] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#deleteRating(Integer, Model)
+2024-02-29 20:05:00.216  === [http-nio-8080-exec-7] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  Rating with id 49 is deleted!
+2024-02-29 20:05:00.224  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.view.RedirectView ===  View name 'redirect:', model {}
+2024-02-29 20:05:00.225  === [http-nio-8080-exec-7] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 302 FOUND
+2024-02-29 20:05:00.231  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 20:05:00.231  === [http-nio-8080-exec-8] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 20:05:00.236  === [http-nio-8080-exec-8] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:05:00.239  === [http-nio-8080-exec-8] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:05:00.259  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:05:00.261  === [http-nio-8080-exec-9] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:05:00.271  === [http-nio-8080-exec-9] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:05:01.721  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/delete/48", parameters={}
+2024-02-29 20:05:01.722  === [http-nio-8080-exec-10] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#deleteRating(Integer, Model)
+2024-02-29 20:05:01.743  === [http-nio-8080-exec-10] === INFO  === com.nnk.springboot.services.RatingServiceImpl ===  Rating with id 48 is deleted!
+2024-02-29 20:05:01.749  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.view.RedirectView ===  View name 'redirect:', model {}
+2024-02-29 20:05:01.750  === [http-nio-8080-exec-10] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 302 FOUND
+2024-02-29 20:05:01.758  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/rating/list", parameters={}
+2024-02-29 20:05:01.759  === [http-nio-8080-exec-1] === DEBUG === o.s.w.s.m.m.a.RequestMappingHandlerMapping ===  Mapped to com.nnk.springboot.controllers.RatingController#home(Model)
+2024-02-29 20:05:01.767  === [http-nio-8080-exec-1] === DEBUG === o.s.w.servlet.view.ContentNegotiatingViewResolver ===  Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8]
+2024-02-29 20:05:01.772  === [http-nio-8080-exec-1] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:05:01.798  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  GET "/css/bootstrap.min.css", parameters={}
+2024-02-29 20:05:01.799  === [http-nio-8080-exec-2] === DEBUG === o.s.web.servlet.handler.SimpleUrlHandlerMapping ===  Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-02-29 20:05:01.812  === [http-nio-8080-exec-2] === DEBUG === org.springframework.web.servlet.DispatcherServlet ===  Completed 200 OK
+2024-02-29 20:15:09.791  === [SpringApplicationShutdownHook] === INFO  === o.s.orm.jpa.LocalContainerEntityManagerFactoryBean ===  Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-29 20:15:09.834  === [SpringApplicationShutdownHook] === INFO  === com.zaxxer.hikari.HikariDataSource ===  HikariPool-1 - Shutdown initiated...
+2024-02-29 20:15:09.875  === [SpringApplicationShutdownHook] === INFO  === com.zaxxer.hikari.HikariDataSource ===  HikariPool-1 - Shutdown completed.
